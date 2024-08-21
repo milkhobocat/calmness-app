@@ -1,0 +1,114 @@
+<!-- THIS IS THE SETTINGS PAGE -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Web Page for 353 Project, Maynooth">
+    <meta name="author" content="Team 12">
+    <title>Settings Page</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <!-- Header part of the website-->
+        <div class="container">
+            <div id="branding">
+                <img src="images/AppLogo.png" style="margin-right: 20px; float: left; margin-top: -10px;" width="100" height="100" />        
+                <!-- Name of the webpage in the header-->
+                <span style="color: #efb746; font-size: 30px; position: relative; top: 10px;">C</span>
+                <span style="color: #eed18f; font-size: 30px; position: relative; top: 10px;">A</span>
+                <span style="color: #acc793; font-size: 30px; position: relative; top: 10px;">L</span>
+                <span style="color: #f2ccb3; font-size: 30px; position: relative; top: 10px;">M</span>
+                <span style="color: #90b09b; font-size: 30px; position: relative; top: 10px;">N</span>
+                <span style="color: #e58e3e; font-size: 30px; position: relative; top: 10px;">E</span>
+                <span style="color: #edba44; font-size: 30px; position: relative; top: 10px;">S</span>
+                <span style="color: #efd18d; font-size: 30px; position: relative; top: 10px;">S</span>
+
+            </div>
+            <nav>
+                <ul>
+                    <!-- below is the list in the top right, we can add whatever we want-->
+                    <li><a href="homepage.html">Home Page</a></li><!-- THIS IS THE EXTRA MATERIAL, ADD CLASS AFTER LI TO CHANGE COLOR-->
+                    <li><a href="homePage2.html">Record</a></li>
+                    <li class="current"><a href="settings.html">Settings</a></li>
+                    <li><a href="index.html">Log Out</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+<!-- Middle of the Page -->
+
+<!-- Settings Title -->
+<section id="setting1">
+    <div class="container">
+        <h1>Settings</h1>
+    </div>
+</section>
+
+<!-- Form for text inputs and buttons -->
+<form>
+    <div class="container">
+        <div id="settings">
+            <div style="text-align:center;">
+                <label for="fname">First Name:</label> <!-- Displays text beside the input box -->
+                <input type="text" id="fname" name="fname" maxlength="50"><br> <!-- Input box for text with max length 50 -->
+
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="lname" maxlength="50"><br>
+
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" maxlength="62"><br>
+
+                <label for="number">Contact Number:</label>
+                <input type="text" id="number" name="number"maxlength="13"><br><br>
+                
+                <button formaction="changePass.html" class="button_ChangePassword button_h1 button_p1" >Change Password</button><br> <!-- Displays button to change the password -->
+                <button formaction="homepage.html" class="button_SaveSettings button_h2 button_p2" >Save</button> <!-- Displays button to save -->
+            </div>
+        </div>
+    </div>
+</form>
+
+    <!-- <section id="login_signup">
+       <div class="container">
+           <h1>Login or SignUp</h1>
+           <form> -->
+               <!-- Work on in here to add login and sign up buttons-->
+               <!-- <button type="Login" class="button_1">Log In</button>
+               <button type="Signup" class="button_2">Sign Up</button>
+           </form>
+       </div> 
+    </section> -->
+
+    <!-- Main content of the page, description what our page does
+    <section id="main">
+        <div class="container">
+            <article id="main-col">
+                <h1 class="page title">Recordings</h1>
+                <ul id=>
+
+                </ul>
+            </article>
+
+            <aside id="sidebar"> -->
+                <!-- <div class="dark">div class uses the dark styling from the css -->
+                <!-- <h3>What we do</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eget lorem et dui malesuada sodales ut non est. Nam at aliquam odio. Donec iaculis odio mauris, non vehicula diam posuere eget.
+                </p>
+            </div>
+            </aside>
+        </div>
+    </section> -->
+    
+    <footer>
+        <p>Mood Diary Web Page, Copyright &copy; 2021</p>
+    </footer>
+
+
+
+</body>
+</html>

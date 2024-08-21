@@ -1,0 +1,67 @@
+<!-- THIS IS THE CHANGE PASSWORD PAGE-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Web Page for 353 Project, Maynooth">
+    <meta name="author" content="Team 12">
+    <title>Change Password Page</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <!-- Header part of the website-->
+        <div class="container">
+            <div id="branding">
+                <!-- Name of the webpage in the header-->
+                <img src="images/AppLogo.png" style="margin-right: 20px; float: left; margin-top: -30px;" width="100" height="100" />
+                <h1>Calmness</h1><!-- THIS IS THE EXTRA MATERIAL, WRAP WORD WITH SPAN TO CHANGE COLOR-->
+            </div>
+            <nav>
+                <ul>
+                    <!-- below is the list in the top right, we can add whatever we want-->
+                    <li><a href="homepage.html">Home Page</a></li><!-- THIS IS THE EXTRA MATERIAL, ADD CLASS AFTER LI TO CHANGE COLOR-->
+                    <li><a href="settings.html">Settings</a></li>
+                    <li class="current"><a href="">My Account</a></li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+<!-- Settings Title -->
+    <section id="changepassword1">
+        <div class="container">
+            <h1>Change Password</h1>
+        </div>
+    </section>
+
+<!-- Form for text inputs and buttons -->
+    <form>
+        <div class="container">
+            <div id="changepassword">
+                <div style="text-align:center;">
+                    <label for="cPass">Current Password:</label> <!-- Displays text beside the input box -->
+                    <input type="text" id="cPass" name="cPass"><br> <!-- Input box for text -->
+                    <label for="nPass">New Password:</label>
+                    <input type="text" id="nPass" name="nPass"><br>
+                    <label for="number">Repeat New Password:</label>
+                    <input type="text" id="rnPass" name="rnPass"><br><br><br>
+                    <button formaction="settings.html" class="button_SavePassword button_h2 button_p2" >Save</button><br> <!-- Displays button to Save -->
+                </div>
+            </div>
+        </div>
+    </form>
+
+
+<!-- Bottom of Page -->
+    
+    <footer>
+        <p>Mood Diary Web Page, Copyright &copy; 2021</p>
+    </footer>
+
+</body>
+</html>

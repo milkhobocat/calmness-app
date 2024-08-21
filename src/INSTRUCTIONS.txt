@@ -1,0 +1,46 @@
+//this is a guide for when you come across any errors
+//you dont have to followw this if you have a better way of doing it :)
+
+-MAKE SURE YOU cd calmness-app EVERY TIME YOU START A NEW TERMINAL :)
+
+///--------FIREBASE SETUP-------------
+-ctrl + c to cancel anything
+
+- If you encounter any issues in your terminal saying anything like SecurityError: (:) [], PSSecurityException....etc, type into terminal:
+> Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+
+-Type this as soon as you as you do the previous line:
+>firebase login
+>firebase init 
+{
+    //commands will pop up just follow all these,
+    >Y
+    // press space to choose and enter
+    >( ) Hosting: Configure files for Firebase Hosting and (optionally) set up GitHub Action deploys
+    >build
+    //single page question:
+    >Y
+    //automatic builds question:
+    >N
+    //overwrite question:
+    >Y
+    //then rewrite the build
+    >npm run build
+
+}
+
+>firebase deploy
+
+-after running all of the above steps, there should be a url link of our hosting site which should be:
+Hosting URL: https://calmness-app-fa25b.web.app
+
+^^^if that doesnt show up, i guess you can repeat the above steps again.
+feel free to add to this text file if you find anything useful! :)
+
+
+//------------BOOTSTRAP/REACT-BOOTSTRAP-----------
+>npm i boostrap react-bootstrap 
+>npm install --save bootstrap@^4.0.0-alpha.6 react-bootstrap@^0.32.1
+
+//use this import for container cause other imports for bootstrap maybe outdated. make sure to check online 
+import Container from 'react-bootstrap/Container'

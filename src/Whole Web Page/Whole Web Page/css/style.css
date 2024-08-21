@@ -1,0 +1,576 @@
+/*------------------------------------------------------- Header -------------------------------------------------------*/
+/*------------Home.js---------------------*/
+.App_Logo{
+    margin-right: 20px;
+     float: left;
+      margin-top: -10px;
+      width: 100px;
+       height:100px; 
+}
+.Relax_img{
+    width:100px;
+    height:100px;
+}
+.Music_img{
+    width:100px;
+    height:100px;
+}
+.Q_and_A_img{
+    width:100px;
+    height:100px;
+}
+.C{
+    color: #efb746; 
+    font-size: 30px;
+     position: relative;
+      top: 10px;
+}
+.A{
+    color: #eed18f; 
+    font-size: 30px; 
+    position: relative; 
+    top: 10px;
+}
+.L{
+    color: #acc793; 
+    font-size: 30px;
+     position: relative;
+      top: 10px;
+}
+.M{
+    color: #f2ccb3;
+     font-size: 30px;
+      position: relative;
+       top: 10px;
+}
+.N{
+    color: #90b09b;
+     font-size: 30px;
+      position: relative;
+       top: 10px;
+}
+.E{
+    color: #e58e3e;
+     font-size: 30px; 
+     position: relative;
+      top: 10px;
+}
+.S{
+    color: #edba44;
+     font-size: 30px;
+      position: relative; 
+      top: 10px;
+}
+.S2{
+    color: #efd18d;
+     font-size: 30px; 
+     position: relative;
+      top: 10px;
+}
+/*------------HomePAGE.js---------------------*/
+.JOURNAL_img{
+    width:180px;
+     height:180px;
+}
+.SPOTIFY_LOGO_img{
+    width:180px;
+     height:180px;
+}
+.THERAPIST_img{
+    width:180px;
+    height:180px;
+}
+.WelcomeBackk{
+    margin-top: 20px;
+     margin-bottom: 20px;
+}
+.Jumpbackk{
+    margin-top: 30px;
+     margin-bottom: 20px;
+}
+/*------------HomePAGE2.js---------------------*/
+.angry_img{
+    position:relative;
+    margin-right: 40px;
+     float: left;
+      margin-top: 60px;
+       width:100px;
+       height:100px;
+}
+.Content_img{
+    position:relative;
+    margin-right: 40px;
+     float: left;
+      margin-top: 60px;
+       width:100px;
+       height:100px;
+}
+.Disappointed_img{
+    position:relative;
+    margin-right: 40px;
+     float: left;
+      margin-top: 60px;
+       width:100px;
+       height:100px;
+}
+
+.Happy_img{
+    position:relative;
+    margin-right: 40px;
+     float: left;
+      margin-top: 60px;
+       width:100px;
+       height:100px;
+}
+.Sad_img{
+    position:relative;
+    margin-right: 40px;
+     float: left;
+      margin-top: 60px;
+       width:100px;
+       height:100px;
+}
+
+.Tired_img{
+    position:relative;
+    margin-right: 40px;
+     float: left;
+      margin-top: 60px;
+       width:100px;
+       height:100px;
+}
+.Confused_img{
+    position:relative;
+    margin-right: 40px;
+     float: left;
+      margin-top: 60px;
+       width:100px;
+       height:100px;
+}
+.Depressed_img{
+    position:relative;
+    margin-right: 40px;
+     float: left;
+      margin-top: 60px;
+       width:100px;
+       height:100px;
+}
+.Joyful_img{
+    position:relative;
+    margin-right: 40px;
+     float: left;
+      margin-top: 60px;
+       width:100px;
+       height:100px;
+}
+/*------------indext.js---------------------*/
+.WelcometoCalm{
+   font-family: Brush Script MT;
+    font-size: 100px;
+     margin-top: 50px;
+}
+.Matters{
+    font-family: Brush Script MT;
+     font-size: 50px;
+      margin-top: 400px;
+}
+/*------------logout.js---------------------*/
+.About{
+   text-align: center;
+}
+.Whatwedo{
+    text-align: center;
+}
+/*------------settings.js---------------------*/
+.divStyle{
+    text-align:center;
+}
+/*---------------------------------*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    /* line-height: 1.5;Line space between each line, mess with to see how it looks */
+    /*font: 15px/1.5 Arial, Helvetica, sans-serif;*/ /* Shortcut for above */
+    padding: 0; /*No padding*/
+    margin: 0; /*No margin*/
+    background-color:lightcyan;/*Colour of webpage*/
+}
+
+/* Below is a class*/ /*Global(affects all)*/
+.container{
+    width:100%; /*Responsive width*/
+    margin: auto; /*Moves everything to the middle*/
+    overflow:hidden; /*If something goes out of div its gonna be hidden*/
+}
+.container1{
+    text-align: center;
+    font-size: 40px;
+    font-family: Brush Script MT;
+}
+.container2{
+    text-align: center;
+    font-size: 30px;
+    font-family: Brush Script MT;
+    margin-top: -30px;
+}
+
+.containerboxes{
+    display: flex;
+    flex-direction: row;
+    /* width:100%; Responsive width */
+    /* margin: auto; Moves everything to the middle */
+    /* overflow:hidden; If something goes out of div its gonna be hidden */
+
+}
+.containerboxes2{
+    display: flex;
+    flex-direction: row;
+    width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+    /* width:100%; Responsive width */
+    /* margin: auto; Moves everything to the middle */
+    /* overflow:hidden; If something goes out of div its gonna be hidden */
+
+}
+
+/*affects all ul's*/
+ul{
+    margin: 0;/*no margin*/
+    padding: 10px;/*no padding*/
+}
+
+/*creates a black box around the paragraph*/
+.dark{
+    padding: 15px;
+    background: black ;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* button class which works on the buttons*/
+.button_1{
+    height: 38px;
+    background: orange;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: black;
+
+/*button class which works on buttons*/
+}
+.button_2{
+    height: 38px;
+    background: orange;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: black;
+
+}
+
+/*Header Top of the page*/
+header{
+    background:lightcyan;/*Colour of the header*/
+    color:black;/*Changes color of text for the header*/
+    padding-top:30px;
+    min-height:70px;/*height adjusts to the page size*/
+    border-bottom: black 3px solid;/*adds a border with a colour at the end of the header*/
+}
+
+/*Works on the links in the header*/
+header a{
+    color:black;/*changes colours of the links*/
+    text-decoration: none;/*removes the underline of link*/
+    text-transform: uppercase;/*changes the writing to uppercase*/
+    font-size: 16px;
+}
+
+/*for the items themselves, float left and display in line so they can be horizontal based on padding*/
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px; /*first one:top, second one:right, third one:bottom, fourth one:left*/
+}
+
+/*moves the whole branding id to the left*/
+header #branding{
+    float: left;
+    display: inline-flex;
+}
+
+/*Moves the web app name to the left*/
+header #branding h1{
+    margin: 0;
+}
+
+/*makes the list of links appear on the right*/
+header nav{
+    float: right;
+    margin-top:10px; /*Moves the nav part down a little*/
+}
+
+/*extra material - highlight a certain word with a class below and <span> in html around that certain word*/
+header .current a{
+    color: black;
+    font-weight: bold;
+}
+
+/*when hovering over word it changes to colour and font below*/
+header a:hover{
+    color:black ;
+    font-weight: bold;
+}
+
+/*------------------------------------------------------- Showcase -------------------------------------------------------*/
+
+#showcase{
+    /*shows image of showcase*/
+    min-height:700px;/*the size depends on how big the picture is*/
+    background:url('../images/welcomepage6.jpeg') no-repeat;/*if you want to move picture across x axis code is: 0(x axis) -/+(choosing if it goes up or down) 400px(the amount itll be moved by)*/
+    background-position-x: center;/* changes position of image*/
+    background-size: 100% 700px;
+    text-align: center;/* moves the text to the center*/
+    color: black;/*change color*/
+    border-bottom: 3px solid black;
+}
+
+#showcase2{
+    /*shows image of showcase*/
+    min-height:700px;/*the size depends on how big the picture is*/
+    /* background:url('../images/welcomepage6.jpeg') no-repeat;if you want to move picture across x axis code is: 0(x axis) -/+(choosing if it goes up or down) 400px(the amount itll be moved by) */
+    background-position-x: center;/* changes position of image*/
+    background-size: 100% 700px;
+    text-align: center;/* moves the text to the center*/
+    color: black;/*change color*/
+    border-bottom: 3px solid black;
+}
+/*focuses on heading in showcase*/
+#showcase h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+
+}
+
+/*focuses on paragraph in showcase*/
+#showcase p{
+    font-size: 20px;
+}
+
+/*------------------------------------------------------- Login/Signup -------------------------------------------------------*/
+
+/* #login_signup{ */
+    /* padding: 0.5px; changes size of line */
+    /* color: white;changes text color */
+    /* background:black ; changes colour of line background */
+/* } */
+
+/* moves writing to the left*/
+#login_signup h1{
+    float: left;
+}
+
+/*moves buttons to the right (probably create two different forms)*/
+#login_signup form{
+    float:right;
+    margin-top: 15px;
+}
+
+
+/*------------------------------------------------------- Boxes -------------------------------------------------------*/
+
+#boxes{
+    /* margin-top: 20px; */
+}
+
+/*works on the way the images are presented*/
+#boxes .box{
+    float: left;
+    text-align: center;
+    
+    /* width: 31.27%; */
+    flex-grow: 1;
+    padding: 10px;
+}
+
+/*works on the size of the images*/
+#boxes .box images{
+    width: 90px;
+}
+
+.box{
+    border: 3px solid black;
+    width: 250px;
+    height: 250px;
+    font-size: 15px;
+}
+
+
+/*------------------------------------------------------- SideBar -------------------------------------------------------*/
+
+/*Moves sidebar to the right*/
+aside#sidebar{
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+
+/*------------------------------------------------------- Main-Col -------------------------------------------------------*/
+
+/*Moves main-col to the left*/
+article#main-col{
+    float: left;
+    width: 65%;
+}
+
+/*------------------------------------------------------- Footer -------------------------------------------------------*/
+
+/* works on the design of the footer*/
+footer{
+    padding: 20px;
+    /* margin-top: 20px; */
+    color: white;
+    background: black;
+    text-align: center;
+}
+
+/* ------------------------------------------------------ Emojis --------------------------------------------------- */
+
+img.relative {
+    flex-grow: 1;
+    left: 50px; 
+  }
+
+  P { text-align: center }
+H2 { text-align: center }
+
+/* ------------------------------------------------------ Settings --------------------------------------------------- */
+
+
+/* Centers setting title and sets font size*/
+#setting1{
+    font-size: 25px;
+    text-align: center; /* moves the text to the center*/
+
+}
+
+/* works on the design of the labels beside the text inputs*/
+#settings label{
+    display: inline-block;
+    width: 170px;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 600;
+} 
+
+/* works on the design of the input text fields*/
+input[type=text] {
+    position: relative;
+    left: 5px;
+    bottom: 2px;
+    width: 15%;
+    padding: 8px;
+    margin: 16px 0;
+    box-sizing: border-box;
+}
+
+/* works on the design of the Change Password button*/
+ .button_ChangePassword{
+    position: relative;
+    left: 5px;
+    width: 13%;
+    padding: 8px;
+    margin: 16px 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    background: #bdfd8a;
+    border: 1px solid #747474;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 5px;
+    color: black;
+
+}
+
+/* works on the design of the Save button on the Settings Page*/
+.button_SaveSettings{
+    height: 50px;
+    background: #fdcb35;
+    border: 1px solid #070707;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    font-weight: 550;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    color: black;
+
+}
+
+
+/* adds a colourshift on hover functionality for a button*/
+.button_h1:hover {
+    background-color: #a5fd5a;
+    cursor: pointer;
+}
+
+/* adds a colourshift on hover functionality for a button*/
+.button_h2:hover {
+    background-color: #fdbf05;
+    cursor: pointer;
+}
+
+/* adds a pressing effect on click for a button*/
+.button_p1:active {
+    background-color: #a5fd5a;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+/* adds a pressing effect on click for a button*/
+.button_p2:active {
+    background-color: #fdbf05;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  /*------------------------------------------------------- Change Password Page -------------------------------------------------------*/
+
+  #changepassword1{
+    font-size: 25px;
+    text-align: center; /* moves the text to the center*/
+    margin-bottom: 100px; 
+
+}
+
+/* works on the design of the labels beside the text inputs on the change password page*/
+  #changepassword label{
+    display: inline-block;
+    width: 230px;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 600;
+} 
+
+/* works on the design of the Save button on the Change Password Page*/
+.button_SavePassword{
+    height: 50px;
+    background: #fdcb35;
+    border: 1px solid #070707;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    font-weight: 550;
+    margin-bottom: 210px;
+    border-radius: 5px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    color: black;
+
+}
+
+
