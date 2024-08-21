@@ -8,7 +8,7 @@ import SignUp from "./SignUp"
 import Container from 'react-bootstrap/Container'
 import { AuthProvider } from "../contexts/AuthContext"
 //this is to route and link pages later eg. sign in page, login...etc.
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom'
 import Dashboard from './Dashboard';
 import Login from './Login';
 import PrivateRoute from "./PrivateRoute"
@@ -42,6 +42,10 @@ function App() {
                  <Route path = '/settings' component ={Settings}/>
                  <Route path = '/submit-feelings' component ={SubmitFeelings}/>
                  <Route path = '/changePass' component ={ChangePass}/>
+
+                 <Route exact path="/">
+              <Redirect to="/home" />
+            </Route>
             </Switch>
          </AuthProvider>
        </Router>
